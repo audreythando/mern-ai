@@ -24,7 +24,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://dreyai-app.vercel.app/api/v1/drey", {
+      const response = await fetch("https://dreyai-app.vercel.app/api/v1/post", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
