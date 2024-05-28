@@ -62,7 +62,7 @@ const CreatePost = () => {
     if (form.prompt && form.photo) {
       setLoading(true);
       try {
-        const response = await fetch("https://dreyai-app.vercel.app/api/v1/post", {
+        const response = await fetch("https://dreyai-app.vercel.app/api/v1/drey", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
